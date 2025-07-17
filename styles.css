@@ -7,10 +7,11 @@ body {
     position: absolute;
     left: 50%;
     bottom: 1px;
-    transform: translate(-50%, -20%);
+    transform: translate(-50%, -10%);
     margin: 0 auto;
     /* background-color: black; */
     width: 30vw;
+    min-width: 20vw;
 }
 
 .fireplace>img {
