@@ -10,13 +10,13 @@ body {
     transform: translate(-50%, -20%);
     margin: 0 auto;
     /* background-color: black; */
+    width: 30vw;
 }
 
 .fireplace>img {
     border-radius: 50px;
-    width: 700px;
+    width: 100%;
     height: auto;
-    display: block;
 }
 
 .topnav {
