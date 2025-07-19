@@ -9,15 +9,15 @@ body {
     bottom: 1px;
     transform: translate(-50%, -10%);
     margin: 0 auto;
-    /* background-color: black; */
-    width: 30vw;
-    min-width: 20vw;
+    background-color: black;
+    width: 550px;
+    /* min-width: 20vw; */
 }
 
 .fireplace>img {
     border-radius: 50px;
     width: 100%;
-    height: auto;
+    /* height: auto; */
 }
 
 .topnav {
