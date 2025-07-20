@@ -4,7 +4,7 @@ body {
 
 .topnav {
     background-color: #2E2E2E;
-    overflow: hidden;
+    overflow: auto;
     margin-bottom: 20px;
 }
 
@@ -14,7 +14,8 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
+    /* border: thick solid green */
 }
 
 .topnav a:hover {
@@ -25,7 +26,6 @@ body {
 .topnav a.active {
     background-color: #C46210;
     color: white;
-    box-shadow: 2px 2px 5px #fc894d;
 }
 
 .fireplace {
@@ -33,16 +33,28 @@ body {
     /* position: absolute;
     left: 50%;
     bottom: 1px;
-    transform: translate(-50%, -10%); */
+    transform: translate(-50%, -10%);
+    min-height: 100px; */
+
+    /* For some trouble shooting */
+    /* background-color: red;
+    border: thick solid #C46210; */
 
     margin-top: 20px;
-    background-color: red;
-    width: 550px;
-    min-height: 100px;
-    border: thick solid #C46210
+    width: 650px;
 }
 
 .fireplace img {
-    border-radius: 50px;
+    border-radius: 25px;
     width: 100%;
+}
+
+.me p {
+    line-height: 1.6;
+}
+
+.me p img {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 5px;
 }
