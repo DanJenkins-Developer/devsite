@@ -2,10 +2,28 @@ body {
     background-color: #E6D8B9;
 }
 
+
+.fireplace {
+    position: absolute;
+    left: 50%;
+    bottom: 1px;
+    transform: translate(-50%, -10%);
+
+    background-color: red;
+    width: 550px;
+    min-height: 100px;
+    border: thick solid #C46210
+}
+
+.fireplace img {
+    border-radius: 50px;
+    width: 100%;
+    /* height: auto; */
+}
+
 .topnav {
     background-color: #2E2E2E;
     overflow: hidden;
-    margin-bottom: 20px;
 }
 
 .topnav a {
@@ -26,23 +44,4 @@ body {
     background-color: #C46210;
     color: white;
     box-shadow: 2px 2px 5px #fc894d;
-}
-
-.fireplace {
-    /* For positioning at the bottom */
-    /* position: absolute;
-    left: 50%;
-    bottom: 1px;
-    transform: translate(-50%, -10%); */
-
-    margin-top: 20px;
-    background-color: red;
-    width: 550px;
-    min-height: 100px;
-    border: thick solid #C46210
-}
-
-.fireplace img {
-    border-radius: 50px;
-    width: 100%;
 }
