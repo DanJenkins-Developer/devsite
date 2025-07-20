@@ -53,8 +53,14 @@ body {
     line-height: 1.6;
 }
 
-.me p img {
+.me img {
     float: left;
-    padding-right: 15px;
-    padding-bottom: 5px;
+    /* margin: 0 20px 0px 0; */
+    margin-right: 20px;
+    width: 350px;
+}
+
+.me p {
+    padding-left: 10px;
+    padding-right: 10px;
 }
