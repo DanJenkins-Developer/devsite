@@ -49,10 +49,6 @@ body {
     width: 100%;
 }
 
-.me p {
-    line-height: 1.6;
-}
-
 .me img {
     float: left;
     /* margin: 0 20px 0px 0; */
@@ -61,6 +57,12 @@ body {
 }
 
 .me p {
+    line-height: 1.6;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.khaled img {
+    float: left;
+    width: 100%;
 }
