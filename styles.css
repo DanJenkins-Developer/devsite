@@ -40,7 +40,8 @@ body {
     /* background-color: red;
     border: thick solid #C46210; */
 
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    margin: 90px auto 4em auto;
     width: 650px;
 }
 
