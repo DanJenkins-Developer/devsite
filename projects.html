@@ -9,17 +9,21 @@
     <link rel="stylesheet" href="styles.css">
 
     <style>
-        .scheduler {
-            width: 900px;
+        .projects {
+            width: 80%;
             margin: 0 auto 4em auto;
             text-align: center;
             overflow: hidden;
-            /* background-color: green; */
-            /* padding: 10px; */
+            font-size: 20px;
         }
 
-        .scheduler img {
-            width: 75%
+        .projects figcaption {
+            font-size: 15px;
+        }
+
+        .projects img {
+            width: 70%;
+            max-width: 700px;
         }
     </style>
 </head>
@@ -32,35 +36,46 @@
         <a href="about.html">About</a>
     </div>
 
-    <div class="scheduler">
-        <div>
+    <div class="projects">
+        <div class="scheduler">
             <div>
-                <h1>Priority Alert Scheduler</h1>
-                <p>Problem: Not all analysts pick up an equal amount of high prority cases.
-                </p>
-                <p>
-                    Cause: High priority alerts are identified, added to a case, and advertised to analysts to "pick
-                    up".
-                </p>
-                <p>Solution: Create an automated system that tracks high priority alerts, adds them to cases, and
-                    assigns
-                    them to analyst's based on priority.
-                </p>
-            </div>
-            <div class="scheduler_pics">
-                <figure>
-                    <img src="/assets/pictures/projects/scheduler/flow_diagram.jpeg" alt="">
-                    <figcaption>Initial flow diagram</figcaption>
-                </figure>
-                <figure>
-                    <img src="/assets/pictures/projects/scheduler/user_ranking.jpeg" alt="">
-                    <figcaption>Newly created cases will go to the first user in the queue according to the case
-                        dispatch logic
-                    </figcaption>
-                </figure>
+                <div>
+                    <h1>Priority Alert Scheduler</h1>
+                    <p><strong>Problem:</strong> High priority cases are not distrubuted equally to analysts.
+                    </p>
+                    <p>
+                        <strong>Cause:</strong> High priority alerts are often identified, added to a case, and
+                        advertised to
+                        analysts to "pickup" by a senior analyst.
+                    </p>
+                    <p><strong>Solution:</strong> Create an automated system that tracks high priority alerts, adds them
+                        to cases, and
+                        assigns
+                        those cases to analysts based on priority.
+                    </p>
+                </div>
+                <div class="scheduler_pics">
+                    <figure>
+                        <img src="/assets/pictures/projects/scheduler/flow_diagram.jpeg" alt="">
+                        <figcaption>Initial flow diagram</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="/assets/pictures/projects/scheduler/user_ranking.jpeg" alt="">
+                        <figcaption>Newly created cases will go to the first user in the queue according to the case
+                            dispatch logic
+                        </figcaption>
+                    </figure>
+                </div>
             </div>
         </div>
+
+        <hr>
+
+        <div class="python_tools">
+            <h1>Analyst Tools</h1>
+        </div>
     </div>
+
 
 
 
