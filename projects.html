@@ -23,7 +23,7 @@
 
         .projects img {
             width: 40%;
-            min-width: 400px;
+            min-width: 300px;
             max-width: 700px;
         }
 
@@ -63,7 +63,8 @@
                 <div class="scheduler_pics">
                     <figure>
                         <img src="/assets/pictures/projects/scheduler/flow_diagram.jpeg" alt="">
-                        <figcaption>Initial flow diagram</figcaption>
+                        <figcaption>Initial flow diagram including the alert listener feeding into the dispatch code
+                        </figcaption>
                     </figure>
                     <figure>
                         <img src="/assets/pictures/projects/scheduler/user_ranking.jpeg" alt="">
@@ -72,6 +73,11 @@
                         </figcaption>
                     </figure>
                 </div>
+                <p>
+                    I am planning on using the .NET framework for this project. I believe the task of weighting users
+                    based on different factors including
+                    schedule should be the most interesting part of the program.
+                </p>
             </div>
         </div>
 
@@ -90,15 +96,22 @@
             <div class="scheduler_pics">
                 <figure>
                     <img src="/assets/pictures/projects/AnalystTools/collectInfo.png" alt="">
-                    <!-- <figcaption>Initial flow diagram</figcaption> -->
+                    <figcaption>The collectInfo function</figcaption>
                 </figure>
                 <figure>
                     <img src="/assets/pictures/projects/AnalystTools/processColumn.png" alt="">
-                    <!-- <figcaption>Newly created cases will go to the first user in the queue according to the case
-                                                dispatch logic
-                                            </figcaption> -->
+                    <figcaption>The processColumn function
+                    </figcaption>
                 </figure>
             </div>
+            <p>
+                The "sort" program is one of the Analyst Tools designed to take columns copied directly from Elastic
+                Discover and
+                format the values in various ways that are useful to an analyst.
+                Todos include parsing the data from input.txt into a data structure rather than manipulating it directly
+                in the processColumn function.
+                Error handling for incorrect formatting also needs to be implemented.
+            </p>
 
 
         </div>
